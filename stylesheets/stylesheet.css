@@ -66,6 +66,8 @@ a:hover {
 header {
   padding-top: 35px;
   padding-bottom: 25px;
+  text-align:center;
+  background:url("http://i.imgur.com/f2NR2pL.png");
 }
 
 header h1 {
@@ -86,12 +88,25 @@ header h2 {
 
 #container {
   background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
-  min-height: 595px;
+  /*min-height: 595px;*/
+  margin-left: auto;
+  margin-right: auto; 
+  position: relative; 
+  min-height: 99%;
 }
 
 .inner {
   width: 620px;
   margin: 0 auto;
+}
+
+img {
+  border-radius: 100px;
+}
+
+section {
+  text-align: center;
+  height:100%;
 }
 
 #container .inner img {
@@ -311,12 +326,16 @@ dl dt {
 }
 
 footer {
-  background: transparent url('../images/hr.png') 0 0 no-repeat;
-  margin-top: 40px;
+  background: grey;
+  /*margin-top: 40px;*/
   padding-top: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 4px;
   font-size: 13px;
   color: #aaa;
+  text-align: center;
+  position: absolute;
+  width:100%;
+  margin-top:20%;
 }
 
 footer a {
