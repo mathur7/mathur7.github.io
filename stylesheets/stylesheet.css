@@ -59,8 +59,10 @@ body {
 a {
   color: #d5000d;
 }
+
 a:hover {
   color: #c5000c;
+  text-decoration:none;
 }
 
 header {
@@ -98,11 +100,19 @@ header h2 {
 }
 
 #footer{
-  height: 50px; 
+  height: 70px; 
   background:#e4e4e4;
   text-align:center;
   padding:20px;
   margin-bottom:20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+#main{
+  border-radius: 10px;
+  padding:10px;
 }
 
 .row {
