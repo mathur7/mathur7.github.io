@@ -50,7 +50,7 @@ table {
 body {
   font-size: 1em;
   line-height: 1.5; 
-  background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
+  background: url("http://i.imgur.com/yMWeqU2.png");
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
   color: #6d6d6d;
@@ -67,13 +67,13 @@ header {
   padding-top: 35px;
   padding-bottom: 25px;
   text-align:center;
-  background:url("http://i.imgur.com/f2NR2pL.png");
+  /*background:url("http://i.imgur.com/yMWeqU2.png");*/
 }
 
 header h1 {
   font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif; font-weight: 900;
   letter-spacing: -1px;
-  font-size: 48px;
+  font-size: 80px;
   color: #303030;
   line-height: 1.2;
 }
@@ -92,12 +92,13 @@ header h2 {
   margin-left: auto;
   margin-right: auto; 
   position: relative; 
-  min-height: 99%;
+  margin: 0 auto;
+  /*min-height: 99%;*/
 }
 
 .inner {
   width: 620px;
-  margin: 0 auto;
+  
 }
 
 img {
@@ -106,7 +107,8 @@ img {
 
 section {
   text-align: center;
-  height:100%;
+  padding:10px;
+  /*background:url("http://i.imgur.com/yMWeqU2.png");*/
 }
 
 #container .inner img {
@@ -292,6 +294,7 @@ h6 {
 p {
   font-weight: 300;
   margin-bottom: 20px;
+  color:black;
 }
  
 a {
@@ -326,7 +329,7 @@ dl dt {
 }
 
 footer {
-  background: grey;
+  /*background: url("http://i.imgur.com/yMWeqU2.png");*/
   /*margin-top: 40px;*/
   padding-top: 20px;
   padding-bottom: 4px;
